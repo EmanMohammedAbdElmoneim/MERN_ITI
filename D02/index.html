@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    http://localhost:4000/home
+    <form action="http://localhost:4000/login" method="get">
+        <h1>get</h1> <!--get from queries-->
+        First Name: <input type="text" name="name" placeholder="enter name">  
+        <br>       
+        passward: <input type="text" name="passward" placeholder="enter passward">
+        <input type="submit" value="Submit">
+        
+    </form>
+    <form action="http://localhost:4000/login" method="post">
+        <h1>post</h1> <!--post in body-->
+        First Name: <input type="text" name="name" placeholder="enter name">  
+        <br>       
+        passward: <input type="text" name="passward" placeholder="enter passward">
+        <input type="submit" value="Submit">
+        
+    </form>
+    
+</body>
+</html>

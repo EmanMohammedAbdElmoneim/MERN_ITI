@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "validator": "^13.7.0"
+  },
+  "name": "d02",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eman",
+  "license": "ISC",
+  "description": ""
+}
